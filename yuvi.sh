@@ -1,10 +1,14 @@
 #!/bin/bash
-time=$(date +%H)
-if [ $time -lt 12];then
-    message = "Good Morning User"
-elif [ $time -lt 18 ];then
-    message = "Good Afternoon User"
-else
-    message = "Good Evening User"
+
+set -x 
+
+a = 5
+b = 6
+
+if a>b; then
+	echo " Hii yuvi"
+else 
+	echo " Hii jyo"
 fi
-echo "$message"hours
+
+echo "hello world"
